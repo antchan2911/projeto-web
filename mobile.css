@@ -1,0 +1,300 @@
+@media screen and (max-width:600px) {
+
+    header {
+        height: 93px;
+    }
+    
+    header h1 {
+        font-size: 16px;
+        margin-top: 2.5em;
+    }
+
+    #logo_header {
+        width: 51px;
+        height: 50px;
+        margin-top : 1.5em;
+        margin-left: 1em;
+    }
+
+    footer {
+        height: 93px;
+    }
+    
+    footer div {
+        gap: 0.5em;
+    }
+
+    #logo_footer {
+        width: 40px;
+        height: 40px;
+        margin-left: 1em;
+    }
+    
+    #nome_grupo {
+        font-size: 10px;
+        max-width: 70px;
+        margin-top: 3.5em;
+    }
+    
+    #contato {
+        font-size: 10px;
+        margin-top: 2.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #sessao_video {
+        margin-bottom: 3em;
+    }
+
+    #sessao_video h2 {
+        font-size: 16px;
+    }
+
+    #container_video {
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+
+    #video_div video {
+        width: 100%;
+        height: 55%;
+
+    }
+
+
+    #texto_main_index {
+        width: 307px;
+        height: 205px;
+        margin-bottom: 3em;
+    }
+
+    #texto_main_index p {
+        font-size: 12px;
+        max-width: 250px;
+        margin-left: 3em;
+    }
+
+    ol {
+        flex-wrap: none;
+        gap: 1.5em;
+        padding-top: 2em;
+    }
+    
+    li p {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 0.5em;
+        max-width: 140px;
+    }
+    
+    #cerebro {
+        width: 95px;
+        height: 95px;
+        margin-left: 1em;
+    }
+    
+    #questao {
+        width: 95px;
+        height: 95px;
+        margin-left: 2em;
+    } 
+    
+    #alvo {
+        width: 95px;
+        height: 95px;
+        margin-left: 1.5em;
+    }
+    
+    #livros {
+        width: 95px;
+        height: 95px;
+        margin-left: 1em;
+    }
+    
+
+
+    /* PAGINA 2 */
+
+
+    #balanca, #saude-mental, #plano, #ioga, #sono, #lampada {
+        display: none;
+    }
+
+    #sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
+        width: 307px;
+    }
+
+    #titulo_sec_page2 {
+        font-size: 15px;
+    }
+    
+    #sessao1 {
+        height: 160px;
+    }
+    
+    .texto_section h2 {
+        font-size: 13px;
+        margin-top: 2em;
+        margin-right: 2em;
+        text-align: center;
+    }
+    
+    .texto_section p {
+        font-size: 11px;
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+    
+    #sessao2 {
+        margin-top: 4em;
+        height: 177px;
+    }
+    
+    #sessao3 {
+        margin-top: 4em;
+        height: 169px;
+    }
+    
+    #sessao4 {
+        margin-top: 4em;
+        height: 175px;
+    }
+    
+    #sessao5 {
+        margin-top: 4em;
+        height: 179px;
+    }
+    
+    #sessao6 {
+        margin-top: 4em;
+        height: 179px;
+    }
+
+
+
+
+    /* PAGINA 3 */
+
+    #titulo_sec_page3 {
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 4em;
+    }
+
+    #container_page3 {
+        width: 280px;
+        height: 680px;
+        margin-bottom: 1em;
+    }
+    
+    #container_page3 section {
+        max-width: 180px;
+        padding-top: 2em;
+        margin: 0 auto;
+    }
+    
+    #container_page3 section p {
+        font-size: 11px;
+        text-align: left;
+        margin-bottom: 2em;
+    }
+    
+    #container_page3 section h2 {
+        max-width: 280px;
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    /* PAGINA 4 */
+
+
+    #titulo_page4 {
+        font-size: 15px;
+    }
+
+    #container_page4 {
+        width: 280px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+
+    #container_page4 p {
+        font-size: 12px;
+        max-width: 190px;
+        margin: 0 auto;
+    }
+
+    #button_page4 button{
+        width: 200px;
+        height: 50px;
+    }
+
+    #button_page4 button p {
+        font-size: 12px;
+    }
+
+    
+
+    /* PAGINA 5 */
+
+
+    #container_page5 {
+        width: 307px;
+        height: 130px;
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+    
+    #container_page5 p {
+        font-size: 13px;
+        max-width: 230px;
+        margin: 0 auto;
+        padding-top: 1.5em;
+    }
+    
+    #container_formulario {
+        width: 307px;
+        height: 570px;
+        margin: 0 auto;
+    }
+    
+    #container_formulario h2 {
+        max-width: 180px;
+        margin: 0 auto;
+        font-size: 13px;
+        text-align: center;
+        padding-top: 2em;
+    }
+    
+    #container_formulario div {
+        margin-top: 2em;
+        margin-left: 1.5em;
+    }
+    
+    input {
+        width: 248px;
+        height: 35px;
+        margin-bottom: 0;
+    }
+    
+    label {
+        font-size: 13px;
+        margin-left: 0.5em;
+        padding-top: 2em;
+    }
+    
+    #enviar_formulario {
+        width: 160px;
+        height: 40px;
+        margin-top: 3em;
+        margin-left: 5.5em;
+    }
+    
+    #enviar_formulario p {
+        font-size: 13px;
+    }
+}

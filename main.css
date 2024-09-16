@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Sarala', 'Arial';
+}
+
+
+
+header {
+    height: 10em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    border-bottom: 5px solid white;
+    background-color: rgba(56, 170, 88, 1);
+}
+
+header h1 {
+    margin-top: 1.8em;
+    font-family: 'Sarpanch', 'Arial';
+}
+
+#logo_header {
+    width: 90px;
+    height: 90px;
+    background-image: url(folha.png);
+    background-size: cover;
+    margin-top : 2em;
+    margin-left: 2em;
+}
+
+footer {
+    height: 8.4em;
+    border-top: 5px solid white;
+    background-color: rgba(56, 170, 88, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer div {
+    display: flex;
+    gap: 1em;
+}
+
+#nome_grupo {
+    margin-top: 3.3em;
+    font-size: 17px;
+    font-family: 'Sarpanch', 'Arial';
+}
+
+#logo_footer {
+    width: 70px;
+    height: 70px;
+    background-image: url(folha.png);
+    background-size: cover;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#contato {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 17px;
+    text-align: right;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* alinha na vertical */
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: rgba(37, 85, 36, 1);
+}
+
+
+#sessao_video {
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+#sessao_video h2 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+video {
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#texto_main_index {
+    width: 835px;
+    height: 219px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+    margin-bottom: 5em;
+
+}
+
+#texto_main_index p {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 1.8em;
+    font-size: 19px;
+    text-align: left;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 4em;
+    padding-top: 6em;
+    list-style-type: none;
+    margin-bottom: 5em;
+}
+
+li p {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#cerebro {
+    width: 200px;
+    height: 200px;
+    background-image: url(cerebro.png);
+    background-size: cover;
+}
+
+#questao {
+    width: 200px;
+    height: 200px;
+    background-image: url(questao.png);
+    background-size: cover;
+}
+
+#alvo {
+    width: 200px;
+    height: 200px;
+    background-image: url(alvo.png);
+    background-size: cover;
+}
+
+#livros {
+    width: 200px;
+    height: 200px;
+    background-image: url(pilha-de-livros.png);
+    background-size: cover;
+}
+
+
+
+
+/* PAGINA 2 */
+
+
+
+
+
+#titulo_sec_page2 {
+    text-align: center;
+}
+
+#sessao1, #sessao2, #sessao3, #sessao4, #sessao5, #sessao6 {
+    width: 838px;
+    display: flex;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+}
+
+#sessao1 {
+    margin-top: 3em;
+    height: 256px;
+    gap: 3em;
+}
+
+.texto_section h2 {
+    margin: 2em 1em 1em 2em;
+}
+
+.texto_section p {
+    margin: 1em 1em 1em 3em;
+    max-width: 360px;
+    text-align: left;
+}
+
+#balanca {
+    margin-top: 2em;
+}
+
+#sessao2 {
+    margin-top: 4em;
+    height: 291px;
+    gap: 5em;
+}
+
+#saude-mental {
+    margin-top: 4em;
+}
+
+#sessao3 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#plano {
+    margin-top: 3em;
+}
+
+#sessao4 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#ioga {
+    margin-top: 3em;
+}
+
+#sessao5 {
+    margin-top: 4em;
+    height: 275px;
+    gap: 9em;
+}
+
+#sono {
+    margin-top: 3em;
+}
+
+#sessao6 {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    height: 280px;
+    gap: 8em;
+}
+
+#lampada {
+    margin-top: 4em;
+}
+
+
+
+
+/* PAGINA 3 */
+
+
+
+#container_page3 {
+    width: 988px;
+    height: 792px;
+    margin-bottom: 3em;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+}
+
+#titulo_sec_page3 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+#container_page3 section {
+    max-width: 750px;
+    padding-top: 2em;
+    margin-left: 5em;
+}
+
+#container_page3 section p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+
+
+
+/* PAGINA 4 */
+
+
+#titulo_page4 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#container_page4 {
+    width: 850px;
+    height: 380px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+}
+
+
+#container_page4 p {
+    font-size: 22px;
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+#button_page4 button{
+    cursor: pointer;
+    width: 383px;
+    height: 98px;
+    border: 2px solid white;
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+}
+
+#button_page4 button:hover {
+    background-color: rgba(66, 255, 119, 1);
+    transition: background-color 1s;
+}
+
+#button_page4 button p {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#button_page4 {
+    padding-top: 4em;
+}
+
+
+
+/* PAGINA 5 */
+
+
+#container_page5 {
+    width: 760px;
+    height: 168px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 43px;
+    background-color: rgba(56, 170, 88, 1);
+    margin-bottom: 5em;;
+}
+
+#container_page5 p {
+    font-size: 22px;
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+#container_formulario {
+    width: 587px;
+    height: 870px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 43px;
+    background-color: rgba(65, 84, 69, 1);
+    margin: 0 auto;
+}
+
+#container_formulario h2 {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#container_formulario div {
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+input {
+    color: black;
+    width: 507px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 43px;
+    padding-left: 10px;
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+#enviar_formulario {
+    width: 314px;
+    height: 60px;
+    margin-top: 7em;
+    margin-left: 10em;
+    border: 3px solid white; 
+    border-radius: 43px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#enviar_formulario p {
+    font-size: 22px;
+}
